@@ -1,0 +1,79 @@
+
+.editArea {
+    border-radius: 15px;
+    border: 5px solid royalblue;
+    color: #0072BC;
+    min-height: 500px !important;
+}
+
+#imageViewBlank {
+    margin-top: 20%;
+}
+
+#imageView {
+    display: none;
+}
+
+.editArea img {
+    height: 500px;
+}
+
+
+.logoImage {
+    width: 100%;
+    height: 75px;
+}
+
+
+.main-nav {
+    background-color: white !important;
+    color: #0072BC !important;
+}
+
+.actionButtons {
+    margin-top: 8%;
+}
+
+.header-area .main-nav .nav li a {
+    color: #0072BC !important;
+}
+.header-area .main-nav .nav li a:hover {
+    color: royalblue !important;
+}
+
+.header-area.header-sticky .nav li a.active {
+    color: black !important;
+}
+
+.actionButtons ul li {
+    background-color: #0072BC;
+    color: white;
+    margin: 10% 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+.selectOptions {
+    margin-top: 5%;
+}
+
+.selectOptions img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #0072BC;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+.owl-dots {
+    display: none !important;
+}
+
+::selection {
+    background-color: #0072BC !important;
+    color: white !important;
+}
