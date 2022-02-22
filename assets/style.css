@@ -3,11 +3,12 @@
     border-radius: 15px;
     border: 5px solid royalblue;
     color: #0072BC;
-    min-height: 500px !important;
+    min-height: 350px !important;
+    max-height: 500px !important;
 }
 
 #imageViewBlank {
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 #imageView {
@@ -31,12 +32,13 @@
 }
 
 .actionButtons {
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 .header-area .main-nav .nav li a {
     color: #0072BC !important;
 }
+
 .header-area .main-nav .nav li a:hover {
     color: royalblue !important;
 }
@@ -76,4 +78,45 @@
 ::selection {
     background-color: #0072BC !important;
     color: white !important;
+}
+
+
+@media screen and (max-width: 650px) {
+
+
+    .editArea img {
+        height: 250px;
+    }
+
+    #imageView {
+        margin-top: 10%;
+    }
+
+    .actionButtons{
+        margin-left: 10% ;
+    }
+
+    .selectOptions{
+        margin-left: 20%;
+    }
+
+    ul li {
+        display: inline;
+        margin: 5% !important;
+        padding: 5%;
+    }
+
+    i {
+        padding: 5%
+    }
+
+    .nacc img{
+        height: 150px;
+    }
+
+    .our-courses{
+        min-height: 1000px !important;
+    }
+
+
 }
